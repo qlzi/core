@@ -37,5 +37,5 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v2
       with:
-        name: App.apk
-        path: ${{ github.workspace }}/app/build/outputs/apk/debug/app-debug.apk
+        name: app
+        path: ${{ github.workspace }}/app/build/outputs/apk
